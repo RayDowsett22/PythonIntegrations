@@ -1,0 +1,29 @@
+TaskID,TaskName,ScriptName,StartTime,EndTime,IsExpected,WarningCount,OtherNonInfoCount,NonInfoMessages,TotalRunTimeSeconds,ResultStoreRowCount,APIFailure
+payments,payments_sync,payments_sync,2026-11-27 09:00:00,2026-11-27 09:01:14,TRUE,0,0,,74,128,0
+payments,payments_sync,payments_sync,2026-11-27 08:00:00,2026-11-27 08:01:20,TRUE,1,0,One record skipped,80,121,0
+payments,payments_sync,payments_sync,2026-11-26 09:00:00,2026-11-26 09:02:06,TRUE,0,1,Retry completed,126,130,0
+payments,payments_sync,payments_sync,2026-11-25 09:00:00,2026-11-25 09:01:31,TRUE,0,0,,91,125,0
+payments,payments_sync,payments_sync,2026-11-24 09:00:00,2026-11-24 09:02:12,TRUE,2,0,Two records need review,132,119,0
+payments,payments_sync,payments_sync,2026-11-20 09:00:00,2026-11-20 09:01:27,TRUE,0,0,,87,122,0
+employees,employee_updates,employee_updates,2026-11-27 10:15:00,2026-11-27 10:16:02,TRUE,0,0,,62,44,0
+employees,employee_updates,employee_updates,2026-11-26 10:15:00,2026-11-26 10:17:30,TRUE,0,1,API returned a duplicate record,150,42,0
+employees,employee_updates,employee_updates,2026-11-24 10:15:00,2026-11-24 10:16:09,TRUE,1,0,Optional field missing,69,38,0
+employees,employee_updates,employee_updates,2026-11-21 10:15:00,2026-11-21 10:16:10,TRUE,0,0,,70,41,0
+employees,employee_updates,employee_updates,2026-11-17 10:15:00,2026-11-17 10:18:11,TRUE,0,0,,191,40,1
+documents,document_archive,document_archive,2026-11-27 12:30:00,2026-11-27 12:31:03,TRUE,0,0,,63,18,0
+documents,document_archive,document_archive,2026-11-26 12:30:00,2026-11-26 12:32:10,TRUE,0,0,,100,17,0
+documents,document_archive,document_archive,2026-11-23 12:30:00,2026-11-23 12:31:20,TRUE,1,1,Document metadata not found,80,0,0
+documents,document_archive,document_archive,2026-11-19 12:30:00,2026-11-19 12:35:10,FALSE,0,0,,280,0,1
+rates,rate_loader,rate_loader,2026-11-27 14:45:00,2026-11-27 14:47:45,TRUE,0,0,,165,356,0
+rates,rate_loader,rate_loader,2026-11-25 14:45:00,2026-11-25 14:48:21,TRUE,2,0,Invalid currency code,216,348,0
+rates,rate_loader,rate_loader,2026-11-22 14:45:00,2026-11-22 14:47:11,TRUE,0,0,,146,352,0
+rates,rate_loader,rate_loader,2026-11-18 14:45:00,2026-11-18 14:48:10,TRUE,0,0,,205,360,0
+rates,rate_loader,rate_loader,2026-11-10 14:45:00,2026-11-10 14:47:32,TRUE,0,1,Rate entry already exists,152,345,0
+security,security_sync,security_sync,2026-11-27 16:00:00,2026-11-27 16:02:50,TRUE,0,0,,170,72,0
+security,security_sync,security_sync,2026-11-26 16:00:00,2026-11-26 16:00:59,TRUE,0,0,,59,70,0
+security,security_sync,security_sync,2026-11-21 16:00:00,2026-11-21 16:04:29,TRUE,0,0,,269,71,0
+security,security_sync,security_sync,2026-11-13 16:00:00,2026-11-13 16:01:28,TRUE,1,0,Permission update returned a warning,88,69,0
+reports,report_export,report_export,2026-11-27 18:20:00,2026-11-27 18:26:12,TRUE,0,0,,372,16,0
+reports,report_export,report_export,2026-11-25 18:20:00,2026-11-25 18:25:01,TRUE,0,0,,301,16,0
+reports,report_export,report_export,2026-11-20 18:20:00,2026-11-20 18:32:15,TRUE,0,0,,735,0,1
+reports,report_export,report_export,2026-11-14 18:20:00,2026-11-14 18:27:40,TRUE,0,2,Export returned partial data,460,14,0
