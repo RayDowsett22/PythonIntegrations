@@ -4,6 +4,9 @@ A local, multipage Streamlit dashboard for exploring API integration run history
 with Pandas and Plotly. It starts with synthetic CSV data and keeps data loading
 separate from the pages so a SQL Server source can be added later.
 
+See the [data dictionary](./docs/data_dictionary.md) for input field
+definitions, normalization rules, and dashboard metric calculations.
+
 ## Set up the Python environment
 
 Create and activate a virtual environment, then install the project dependencies:
